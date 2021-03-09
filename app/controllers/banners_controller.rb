@@ -10,6 +10,12 @@ class BannersController < ApplicationController
   def show
   end
 
+  def complete
+  end
+
+  def preview
+  end
+
   # GET /banners/new
   def new
     @banner = Banner.new

@@ -1,0 +1,10 @@
+<h1>preview</h1>
+<%= form_with( local: true, url: "/banners/complete", method: "PATCH") do |form| %>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
+
+<%= link_to '送信', 'complete' %> |
+<%= link_to 'Back', banners_path %> 
